@@ -32,9 +32,9 @@ Basit kullanım:
 goodbyedpibigo.exe
 ```
 
-Gelişmiş kullanım:
+Gelişmiş kullanım: (Buna gerek yok artık! Normal şekilde açtığınızda dahi en iyi şekilde çalışacaktır.)
 ```cmd
-goodbyedpibigo.exe -1 --dns-addr 1.1.1.1 --dns-port 853 --dnsv6-addr 2606:4700:4700::1111
+goodbyedpibigo.exe -5 --dns-addr 77.88.8.8 --dns-port 1253 --dnsv6-addr 2a02:6b8::feed:0ff::1253
 ```
 
 ### Parametreler
