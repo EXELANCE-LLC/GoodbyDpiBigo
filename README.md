@@ -23,6 +23,7 @@ GoodbyeDPIBigo, DPI (Deep Packet Inspection) engellemelerini aşmak için geliş
 2. Arşivi istediğiniz bir konuma çıkartın
 3. Komut istemini (cmd.exe) yönetici olarak çalıştırın
 4. Program dizinine gidin ve programı çalıştırın
+5. install_service.bat dosyasını yönetici olarak çalıştırın. Artık arkaplanda ve windows her açılışta otomatik çalışacaktır.
 
 ## Kullanım
 
