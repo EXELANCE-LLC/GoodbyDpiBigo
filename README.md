@@ -19,7 +19,7 @@ GoodbyeDPIBigo, DPI (Deep Packet Inspection) engellemelerini aşmak için geliş
 
 ## Kurulum
 
-1. En son sürümü [releases](https://github.com/EXELANCE-LLC/GoodbyeDPIBigo/releases) sayfasından indirin
+1. En son sürümü [releases](https://github.com/EXELANCE-LLC/GoodbyDpiBigo/releases) sayfasından indirin
 2. Arşivi istediğiniz bir konuma çıkartın
 3. Komut istemini (cmd.exe) yönetici olarak çalıştırın
 4. Program dizinine gidin ve programı çalıştırın
