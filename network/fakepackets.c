@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <ctype.h>
-#include <unistd.h>
-#include <in6addr.h>
+#include <windows.h>
 #include <ws2tcpip.h>
 #include "windivert.h"
 #include "goodbyedpi.h"

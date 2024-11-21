@@ -7,6 +7,8 @@
  */
 #include <windows.h>
 #include <stdio.h>
+#include <string.h>
+#include "../include/wincompat.h"
 #include "goodbyedpi.h"
 #include "utils/uthash.h"
 #include "utils/getline.h"

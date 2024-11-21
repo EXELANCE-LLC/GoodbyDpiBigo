@@ -2,24 +2,25 @@
  * GoodbyeDPI — Passive DPI blocker and Active DPI circumvention utility.
  */
 
+#include <windows.h>
+#include "wincompat.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <ctype.h>
 #include <signal.h>
-#include <unistd.h>
 #include <string.h>
 #include <getopt.h>
-#include <in6addr.h>
-#include <ws2tcpip.h>
 #include "windivert.h"
 #include "goodbyedpi.h"
-#include "utils/repl_str.h"
+#include "repl_str.h"
 #include "service.h"
 #include "dnsredir.h"
 #include "ttltrack.h"
 #include "blackwhitelist.h"
 #include "fakepackets.h"
+
+
 
 // My mingw installation does not load inet_pton definition for some reason
 WINSOCK_API_LINKAGE INT WSAAPI inet_pton(INT Family, LPCSTR pStringBuf, PVOID pAddr);
@@ -641,7 +642,7 @@ int main(int argc, char *argv[]) {
     unsigned int hdr_value_len;
 
     // Make sure to search DLLs only in safe path, not in current working dir.
-    SetDllDirectory("");
+    SetDllDirectoryA("");
     SetSearchPathMode(BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE | BASE_SEARCH_PATH_PERMANENT);
 
     if (!running_from_service) {
